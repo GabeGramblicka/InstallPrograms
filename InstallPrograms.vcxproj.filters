@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{a1f26fc2-0dab-4873-9240-cc1760ac3c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Framework">
+      <UniqueIdentifier>{f1d0303b-20cc-41cb-8c9c-d5cc7750257e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems">
+      <UniqueIdentifier>{2b246cdf-5364-463e-a1a9-0eb5bbaf6713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\Window">
+      <UniqueIdentifier>{f2602ea5-8020-443d-8dc5-e62b8a29a394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Trace">
+      <UniqueIdentifier>{e860e1d4-0009-400d-91b6-324e606f8940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stub">
+      <UniqueIdentifier>{403c855e-68b3-4545-959a-d6cbbc4d4d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Serial">
+      <UniqueIdentifier>{802a2493-71e8-45b8-9e92-38ddf158bf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{32ccffb6-31e0-4083-9656-224c9ba39c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\ImGui">
+      <UniqueIdentifier>{cd676b1e-19c7-4093-9108-70a51c3aa990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Framework\Graphics">
+      <UniqueIdentifier>{c7241cb9-ac01-4867-9533-0ed87a8e0d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Framework\Graphics\PGE">
+      <UniqueIdentifier>{9724a616-ebd9-4437-adf6-f78e42c1fc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\UI">
+      <UniqueIdentifier>{01d493ca-dcb5-470b-be5f-1b0dd7936f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entities">
+      <UniqueIdentifier>{7d2310a5-3a1d-479b-8e2d-0c9cfc25164d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\System.cpp">
+      <Filter>Engine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowSystem.cpp">
+      <Filter>Engine\Systems\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Trace.cpp">
+      <Filter>Engine\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PGE.cpp">
+      <Filter>Engine\Framework\Graphics\PGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PGEWindow.cpp">
+      <Filter>Engine\Framework\Graphics\PGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stub.cpp">
+      <Filter>Stub</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_widgets.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_tables.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_stdlib.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_impl_opengl3.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_impl_glfw.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_draw.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui_demo.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\includes\imGui\imgui.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StubSystem.cpp">
+      <Filter>Stub</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stream.cpp">
+      <Filter>Engine\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PGESystem.cpp">
+      <Filter>Engine\Framework\Graphics\PGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISystem.cpp">
+      <Filter>Engine\Systems\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\System.h">
+      <Filter>Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindowSystem.h">
+      <Filter>Engine\Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdinclude.h">
+      <Filter>Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Trace.h">
+      <Filter>Engine\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PGE.h">
+      <Filter>Engine\Framework\Graphics\PGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PGEWindow.h">
+      <Filter>Engine\Framework\Graphics\PGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stub.h">
+      <Filter>Stub</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imstb_truetype.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imstb_textedit.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imstb_rectpack.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imgui_stdlib.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imgui_internal.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imgui_impl_opengl3_loader.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imgui_impl_opengl3.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imgui_impl_glfw.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imgui.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\includes\imGui\imconfig.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StubSystem.h">
+      <Filter>Stub</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stream.h">
+      <Filter>Engine\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\dirent.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PGESystem.h">
+      <Filter>Engine\Framework\Graphics\PGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UISystem.h">
+      <Filter>Engine\Systems\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\App.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

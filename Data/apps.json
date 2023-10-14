@@ -1,0 +1,357 @@
+{	
+	"7zip": {
+		"type" : "utilities",
+		"winget": "7zip.7zip",
+		"choco": "7zip"
+	},
+	"adobe": {
+		"type" : "media",
+		"winget": "Adobe.Acrobat.Reader.64-bit",
+		"choco": "adobereader"
+	},
+	"audacity": {
+		"type" : "media",
+		"winget": "Audacity.Audacity",
+		"choco": "audacity"
+	},
+	"bitwarden": {
+		"type" : "utilities",
+		"winget": "Bitwarden.Bitwarden",
+		"choco": "bitwarden"
+	},
+	"blender": {
+		"type" : "media",
+		"winget": "BlenderFoundation.Blender",
+		"choco": "blender"
+	},
+	"brave": {
+		"type" : "browsers",
+		"winget": "Brave.Brave",
+		"choco": "brave"
+	},
+	"bulkcrapuninstaller": {
+		"type" : "utilities",
+		"winget": "Klocman.BulkCrapUninstaller",
+		"choco": "bulk-crap-uninstaller"
+	},
+	"chrome": {
+		"type" : "browsers",
+		"winget": "Google.Chrome",
+		"choco": "googlechrome"
+	},
+	"chromium": {
+		"type" : "browsers",
+		"winget": "eloston.ungoogled-chromium",
+		"choco": "chromium"
+	},
+	"cpuz": {
+		"type" : "utilities",
+		"winget": "CPUID.CPU-Z",
+		"choco": "cpu-z"
+	},
+	"ddu": {
+		"type" : "utilities",
+		"winget": "ddu",
+		"choco": "ddu"
+	},
+	"discord": {
+		"type" : "communication",
+		"winget": "Discord.Discord",
+		"choco": "discord"
+	},
+	"dotnet3": {
+		"type" : "microsoft",
+		"winget": "Microsoft.DotNet.DesktopRuntime.3_1",
+		"choco": "dotnetcore3-desktop-runtime"
+	},
+	"dotnet5": {
+		"type" : "microsoft",
+		"winget": "Microsoft.DotNet.DesktopRuntime.5",
+		"choco": "dotnet-5.0-runtime"
+	},
+	"dotnet6": {
+		"type" : "microsoft",
+		"winget": "Microsoft.DotNet.DesktopRuntime.6",
+		"choco": "dotnet-6.0-runtime"
+	},
+	"eaapp": {
+		"type" : "games",
+		"winget": "ElectronicArts.EADesktop",
+		"choco": "ea-app"
+	},
+	"eartrumpet": {
+		"type" : "utilities",
+		"winget": "File-New-Project.EarTrumpet",
+		"choco": "eartrumpet"
+	},
+	"edge": {
+		"type" : "browsers",
+		"winget": "Microsoft.Edge",
+		"choco": "microsoft-edge"
+	},
+	"epicgames": {
+		"type" : "microsoft",
+		"winget": "EpicGames.EpicGamesLauncher",
+		"choco": "epicgameslauncher"
+	},
+	"etcher": {
+		"type" : "utilities",
+		"winget": "Balena.Etcher",
+		"choco": "etcher"
+	},
+	"firefox": {
+		"type" : "browsers",
+		"winget": "Mozilla.Firefox",
+		"choco": "firefox"
+	},
+	"foxpdf": {
+		"type" : "utilities",
+		"winget": "Foxit.PhantomPDF",
+		"choco": "na"
+	},
+	"gimp": {
+		"type" : "media",
+		"winget": "GIMP.GIMP",
+		"choco": "gimp"
+	},
+	"git": {
+		"type" : "dev",
+		"winget": "Git.Git",
+		"choco": "git"
+	},
+	"githubdesktop": {
+		"type" : "dev",
+		"winget": "Git.Git;GitHub.GitHubDesktop",
+		"choco": "git;github-desktop"
+	},
+	"gpuz": {
+		"type" : "utilities",
+		"winget": "TechPowerUp.GPU-Z",
+		"choco": "gpu-z"
+	},
+	"handbrake": {
+		"type" : "media",
+		"winget": "HandBrake.HandBrake",
+		"choco": "handbrake"
+	},
+	"hwinfo": {
+		"type" : "utilities",
+		"winget": "REALiX.HWiNFO",
+		"choco": "hwinfo"
+	},
+	"inkscape": {
+		"type" : "media",
+		"winget": "Inkscape.Inkscape",
+		"choco": "inkscape"
+	},
+	"java8": {
+		"type" : "dev",
+		"winget": "EclipseAdoptium.Temurin.8.JRE",
+		"choco": "temurin8jre"
+	},
+	"java11": {
+		"type" : "dev",
+		"winget": "EclipseAdoptium.Temurin.11.JRE",
+		"choco": "javaruntime"
+	},
+	"java16": {
+		"type" : "dev",
+		"winget": "AdoptOpenJDK.OpenJDK.16",
+		"choco": "temurin16jre"
+	},
+	"java17": {
+		"type" : "dev",
+		"winget": "EclipseAdoptium.Temurin.17.JRE",
+		"choco": "temurin17jre"
+	},
+	"java18": {
+		"type" : "dev",
+		"winget": "EclipseAdoptium.Temurin.18.JRE",
+		"choco": "temurin18jre"
+	},
+	"java19": {
+		"type" : "dev",
+		"winget": "EclipseAdoptium.Temurin.19.JRE",
+		"choco": "temurin19jre"
+	},
+	"java20": {
+		"type" : "dev",
+		"winget": "Azul.Zulu.20.JDK",
+		"choco": "na"
+	},
+	"jetbrains": {
+		"type" : "dev",
+		"winget": "JetBrains.Toolbox",
+		"choco": "jetbrainstoolbox"
+	},
+	"kdenlive": {
+		"type" : "media",
+		"winget": "KDE.Kdenlive",
+		"choco": "kdenlive"
+	},
+	"krita": {
+		"type" : "media",
+		"winget": "KDE.Krita",
+		"choco": "krita"
+	},
+	"libreoffice": {
+		"type" : "media",
+		"winget": "TheDocumentFoundation.LibreOffice",
+		"choco": "libreoffice-fresh"
+	},
+	"msiafterburner": {
+		"type" : "utilities",
+		"winget": "Guru3D.Afterburner",
+		"choco": "msiafterburner"
+	},
+	"notepadplus": {
+		"type" : "dev",
+		"winget": "Notepad++.Notepad++",
+		"choco": "notepadplusplus"
+	},
+	"nvclean": {
+		"type" : "utilities",
+		"winget": "TechPowerUp.NVCleanstall",
+		"choco": "na"
+	},
+	"obs": {
+		"type" : "media",
+		"winget": "OBSProject.OBSStudio",
+		"choco": "obs-studio"
+	},
+	"obsidian": {
+		"type" : "media",
+		"winget": "Obsidian.Obsidian",
+		"choco": "obsidian"
+	},
+	"onlyoffice": {
+		"type" : "media",
+		"winget": "ONLYOFFICE.DesktopEditors",
+		"choco": "onlyoffice"
+	},
+	"openoffice": {
+		"type" : "media",
+		"winget": "Apache.OpenOffice",
+		"choco": "openoffice"
+	},
+	"powershell": {
+		"type" : "microsoft",
+		"winget": "Microsoft.PowerShell",
+		"choco": "powershell-core"
+	},
+	"powertoys": {
+		"type" : "microsoft",
+		"winget": "Microsoft.PowerToys",
+		"choco": "powertoys"
+	},
+	"processmonitor": {
+		"type" : "utilities",
+		"winget": "Microsoft.Sysinternals.ProcessMonitor",
+		"choco": "procexp"
+	},
+	"putty": {
+		"type" : "utilities",
+		"winget": "PuTTY.PuTTY",
+		"choco": "putty"
+	},
+	"rufus": {
+		"type" : "utilities",
+		"winget": "Rufus.Rufus",
+		"choco": "rufus"
+	},
+	"skype": {
+		"type" : "communication",
+		"winget": "Microsoft.Skype",
+		"choco": "skype"
+	},
+	"slack": {
+		"type" : "communication",
+		"winget": "SlackTechnologies.Slack",
+		"choco": "slack"
+	},
+	"steam": {
+		"type" : "games",
+		"winget": "Valve.Steam",
+		"choco": "steam-client"
+	},
+	"teams": {
+		"type" : "communication",
+		"winget": "Microsoft.Teams",
+		"choco": "microsoft-teams"
+	},
+	"terminal": {
+		"type" : "microsoft",
+		"winget": "Microsoft.WindowsTerminal",
+		"choco": "microsoft-windows-terminal"
+	},
+	"tor": {
+		"type" : "browsers",
+		"winget": "TorProject.TorBrowser",
+		"choco": "tor-browser"
+	},
+	"tidal": {
+		"type" : "media",
+		"winget": "9NNCB5BS59PH",
+		"choco": "na"
+	},	
+	"ubisoft": {
+		"type" : "games",
+		"winget": "Ubisoft.Connect",
+		"choco": "ubisoft-connect"
+	},
+	"unity": {
+		"type" : "dev",
+		"winget": "Unity.UnityHub",
+		"choco": "unityhub"
+	},
+	"vc2015_32": {
+		"type" : "microsoft",
+		"winget": "Microsoft.VCRedist.2015+.x86",
+		"choco": "na"
+	},
+	"vc2015_64": {
+		"type" : "microsoft",
+		"winget": "Microsoft.VCRedist.2015+.x64",
+		"choco": "na"
+	},
+	"visualstudio": {
+		"type" : "dev",
+		"winget": "Microsoft.VisualStudio.2022.Community",
+		"choco": "visualstudio2022community"
+	},
+	"vlc": {
+		"type" : "utilities",
+		"winget": "VideoLAN.VLC",
+		"choco": "vlc"
+	},
+	"vscode": {
+		"type" : "dev",
+		"winget": "Git.Git;Microsoft.VisualStudioCode",
+		"choco": "vscode"
+	},
+	"vscodium": {
+		"type" : "dev",
+		"winget": "Git.Git;VSCodium.VSCodium",
+		"choco": "vscodium"
+	},
+	"windirstat": {
+		"type" : "utilities",
+		"winget": "WinDirStat.WinDirStat",
+		"choco": "windirstat"
+	},
+	"winmerge": {
+		"type" : "utilities",
+		"winget": "WinMerge.WinMerge",
+		"choco": "winmerge"
+	},
+	"winrar": {
+		"type" : "utilities",
+		"winget": "RARLab.WinRAR",
+		"choco": "winrar"
+	},
+	"zoom": {
+		"type" : "communication",
+		"winget": "Zoom.Zoom",
+		"choco": "zoom"
+	}
+}
