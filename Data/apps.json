@@ -144,41 +144,6 @@
 		"winget": "Inkscape.Inkscape",
 		"choco": "inkscape"
 	},
-	"java8": {
-		"type" : "dev",
-		"winget": "EclipseAdoptium.Temurin.8.JRE",
-		"choco": "temurin8jre"
-	},
-	"java11": {
-		"type" : "dev",
-		"winget": "EclipseAdoptium.Temurin.11.JRE",
-		"choco": "javaruntime"
-	},
-	"java16": {
-		"type" : "dev",
-		"winget": "AdoptOpenJDK.OpenJDK.16",
-		"choco": "temurin16jre"
-	},
-	"java17": {
-		"type" : "dev",
-		"winget": "EclipseAdoptium.Temurin.17.JRE",
-		"choco": "temurin17jre"
-	},
-	"java18": {
-		"type" : "dev",
-		"winget": "EclipseAdoptium.Temurin.18.JRE",
-		"choco": "temurin18jre"
-	},
-	"java19": {
-		"type" : "dev",
-		"winget": "EclipseAdoptium.Temurin.19.JRE",
-		"choco": "temurin19jre"
-	},
-	"java20": {
-		"type" : "dev",
-		"winget": "Azul.Zulu.20.JDK",
-		"choco": "na"
-	},
 	"jetbrains": {
 		"type" : "dev",
 		"winget": "JetBrains.Toolbox",

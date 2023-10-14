@@ -28,16 +28,6 @@ int WINAPI wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prevInstance, _I
     UNREFERENCED_PARAMETER(instance);
     UNREFERENCED_PARAMETER(cmdShow);
 
-
-#if _DEBUG
-    //AllocConsole();
-    //FILE* fDummy;
-    //freopen_s(&fDummy, "CONIN$", "r", stdin);
-    //freopen_s(&fDummy, "CONOUT$", "w", stderr);
-    //freopen_s(&fDummy, "CONOUT$", "w", stdout);
-#endif
-    cmdShow = 1;
-
     // Creating engine variable
     Engine engine;
 

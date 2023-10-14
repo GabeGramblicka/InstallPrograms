@@ -72,15 +72,9 @@ bool WindowSystem::Init()
         return false;
     }
 
-    
     PGE::Systems::SetVersion();
 
-    #if _DEBUG
     const int width = 100, height = 100;
-    #else
-    const int width = 1920, height = 1080;
-    monitorHandle = PGE::Window::GetPrimaryMonitor();
-    #endif
 
     // Create the window using the window size variables and our window title
     windowHandle = PGE::Window::Create(width, height, "Dread It", monitorHandle, nullptr);

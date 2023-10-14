@@ -95,11 +95,12 @@ void UISystem::Update(float dt)
 		WindowSystem::IsRunning = false;
 	}
 
+#ifdef _DEBUG
 	if (_showDemo)
 	{
 		ImGui::ShowDemoWindow(&_showDemo);
 	}
-
+#endif
 	if (_install)
 	{
 		for (auto app : App::GetApps())
@@ -164,9 +165,12 @@ void UISystem::ShowDebug(bool* p_open, float dt)
 	ImGui::Begin("Debug", p_open);
 	ImGui::SetNextWindowSize(ImVec2(763, 539), ImGuiCond_Always);
 
+#ifdef _DEBUG
 	ImGui::SeparatorText("General Options");
 	ImGui::Checkbox("Show Demo Window", &_showDemo);
 	ImGui::SameLine();
+#endif
+
 	_install   = ImGui::Button("Install Selected Programs", ImVec2(200, 22));
 	ImGui::SameLine();
 	_uninstall = ImGui::Button("Uninstall Selected Programs", ImVec2(200, 22));
@@ -174,7 +178,6 @@ void UISystem::ShowDebug(bool* p_open, float dt)
 	_clear = ImGui::Button("Clear Checkboxes", ImVec2(120, 22));
 
 	ImGui::StyleColorsCustom();
-
 
 	ImGui::SeparatorText("Programs");
 	
