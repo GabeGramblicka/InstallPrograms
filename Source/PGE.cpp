@@ -16,6 +16,7 @@
 #include "Precompiled.h"
 #include "PGE.h"
 
+#include <cassert>
 #include "Trace.h"
 //------------------------------------------------------------------------------
 // Private Function Declarations:

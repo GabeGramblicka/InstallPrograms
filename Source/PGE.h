@@ -15,9 +15,6 @@
 // Forward References:
 //------------------------------------------------------------------------------
 // Using glm for math
-#include "glm/glm.hpp"
-#include <glm/gtx/transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
 #include <glfw/glfw3.h> // Using glfw for window handling
 
 #include "PGEWindow.h"

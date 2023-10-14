@@ -173,6 +173,9 @@ void UISystem::ShowDebug(bool* p_open, float dt)
 	ImGui::SameLine();
 	_clear = ImGui::Button("Clear Checkboxes", ImVec2(120, 22));
 
+	ImGui::StyleColorsCustom();
+
+
 	ImGui::SeparatorText("Programs");
 	
 	App::Display("Browsers", "browsers");
