@@ -111,8 +111,8 @@ void App::Find(int _stall)
 			else
 			{
 				std::cout << "";
-				_installer.insert(0, ".\\Data\\");
-				_uninstaller.insert(0, ".\\Data\\");
+				_installer.insert(0, ".\\Data\\Executables\\");
+				_uninstaller.insert(0, ".\\Data\\Executables\\");
 				if (_stall == 1)
 				{
 					err = std::system(_installer.c_str());

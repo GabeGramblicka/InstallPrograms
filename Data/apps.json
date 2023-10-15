@@ -419,6 +419,13 @@
 		"installer" : "na",
 		"uninstaller" : "na"
 	},
+	"Ultimate Windows Tweaker": {
+		"type" : "utilities",
+		"winget": "na",
+		"choco": "na",
+		"installer" : "uwt5\\UltimateWindowsTweaker5.0.exe",
+		"uninstaller" : "na"
+	},
 	"unity": {
 		"type" : "dev",
 		"winget": "Unity.UnityHub",
@@ -437,6 +444,13 @@
 		"type" : "microsoft",
 		"winget": "Microsoft.VCRedist.2015+.x64",
 		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"VirtualBox": {
+		"type" : "utilities",
+		"winget": "Oracle.VirtualBox",
+		"choco": "virtualbox",
 		"installer" : "na",
 		"uninstaller" : "na"
 	},
