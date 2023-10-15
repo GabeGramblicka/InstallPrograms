@@ -162,7 +162,7 @@ void UISystem::Exit()
 
 void UISystem::ShowDebug(bool* p_open, float dt)
 {
-	ImGui::Begin("Debug", p_open);
+	ImGui::Begin("Program Installer", p_open);
 	ImGui::SetNextWindowSize(ImVec2(763, 539), ImGuiCond_Always);
 
 #ifdef _DEBUG
