@@ -17,7 +17,7 @@
 ;   2) Replace YOUR_GAME_NAME_HERE on line 19 with your game name.
 ;   3) Replace 0.0.0 on line 20 with the current version number of your game.
 ;   4) Replace the CPlusPlusYearVersion number with the year of C++ you are going to install.
-;		NOTE:  If you are not installing C++ redists, you can skip this step.
+;		NOTE:  If you are not installing C++ redists, you can skip this step.  You will also need to comment out lines 102 and 127.
 ;   5) Update the redistributables required for your game.
 [Setup]
 
@@ -26,10 +26,10 @@
 #define CPlusPlusYearVersion '2015'
 
 DisableWelcomePage=no
-;WizardImageFile=INSTALLERFILES\panel_image_100.bmp
-;WizardSmallImageFile=INSTALLERFILES\banner.bmp
+WizardImageFile=INSTALLERFILES\panel_image_100.bmp
+WizardSmallImageFile=INSTALLERFILES\banner.bmp
 
-AppId={{3AF3D965-4A41-4F1F-9B06-E5436491FE78}
+AppId={{A4E6DD8D-2391-4F22-9D32-1977F01792A7}
 
 ; Standard app data stuff
 AppName={#ApplicationName}
@@ -37,12 +37,12 @@ AppVerName={#ApplicationName}
 VersionInfoVersion = {#ApplicationVersion}
 AppVersion = {#ApplicationVersion}
 AppPublisher=Gabe Gramblicka
-AppPublisherURL=http://www.gabegramblicka.com/
-AppSupportURL=http://www.gabegramblicka.com/
+AppPublisherURL=http://www.gabegramblicka.com
+AppSupportURL=http://www.gabegramblicka.com
 
 ; Default path to the file storage directory.
-; {commonpf} is the default program files directory set by Windows
-DefaultDirName={commonpf}\GabeGramblicka\{#ApplicationName}
+; {pf} is the default program files directory set by Windows
+DefaultDirName={pf}\GabeGramblicka\{#ApplicationName}
 
 ; Start menu directory
 DefaultGroupName=GabeGramblicka\{#ApplicationName}
@@ -54,14 +54,14 @@ OutputDir=.\INSTALLER
 OutputBaseFilename={#ApplicationName}_Setup
 
 ; Path to the DigiPen EULA (Needed to pass TCRs)
-;LicenseFile=INSTALLERFILES\DigiPen_EULA.txt
+LicenseFile=INSTALLERFILES\GabeGramblicka_EULA.txt
 
 ; Compression scheme for the installer. Check Inno Setup help files for more options.
 Compression=lzma
 SolidCompression=yes
 
 ; Path to the icon for the installer (TCR check requires custom icon)
-;SetupIconFile=.\INSTALLERFILES\setup_icon.ico
+SetupIconFile=.\INSTALLERFILES\setup_icon.ico
 
 ; This allows the installer to run without admin privileges, which means you can't install
 ; in the Program Files, or change the registry. This is done to allow installation on Sandbox
@@ -93,13 +93,13 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 
 ;Chirs Onorati: Add every possible image.
-;Source: ".\INSTALLERFILES\panel_image_*.bmp"; Flags: dontcopy
+Source: ".\INSTALLERFILES\panel_image_*.bmp"; Flags: dontcopy
 
 ; The game directoy is exactly what you want your install directory in program files to look like
 Source: .\GAMEDIRECTORY\*; DestDir: {app}; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ;Chris Onorati: You need to place any redists you want to install here under files, and then install them under the RUN section
-Source: ".\REDIST\VC_redist.x64.exe"; DestDir: {tmp}; Flags: deleteafterinstall
+Source: ".\REDIST\vcredist_x86.exe"; DestDir: {tmp}; Flags: deleteafterinstall
 
 ; This is the list of shortcuts that the installer will setup for you.
 ; Of note, this will create the uninstaller automatically.
@@ -118,11 +118,15 @@ Name: {commondesktop}\{#ApplicationName}; Filename: {app}\{#ApplicationName}.exe
 ;
 ; The last item being run is the installer option to automatically launch the game after
 ;   the installer exits as required by the TCRs.
+
 ; TODO: Update this list with the correct redistributables for your game.
+; NOTE: For C++ runtimes you may need to change the command line arguments for silent install.  
+;Reference this site to see how to do so: https://silentinstallhq.com/visual-c-redistributable-silent-install-master-list/
+
 [Run]
-Filename: {tmp}\VC_redist.x64.exe; Parameters: /q /Q /quiet /passive /silent /norestart /NORESTART /noreboot /NOREBOOT; StatusMsg: Installing Visual C++ {#CPlusPlusYearVersion} Redistributable...
+Filename: {tmp}\vcredist_x86.exe; Parameters: /q /Q /quiet /passive /silent /norestart /NORESTART /noreboot /NOREBOOT; StatusMsg: Installing Visual C++ {#CPlusPlusYearVersion} Redistributable...
 ;Filename: {tmp}\dxsetup.exe; Parameters: /Q; StatusMsg: Installing DirectX...
-;Filename: {app}\{#ApplicationName}.exe; Description: {cm:LaunchProgram,{#ApplicationName}}; Flags: nowait postinstall skipifsilent
+Filename: {app}\{#ApplicationName}.exe; Description: {cm:LaunchProgram,{#ApplicationName}}; Flags: nowait postinstall skipifsilent
 
 [UninstallDelete]
 
