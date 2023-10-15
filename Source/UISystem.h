@@ -47,6 +47,7 @@ private:
 	bool _install;
 	bool _uninstall;
 	bool _clear;
+	bool _explorer;
 	bool _allowHotkeyScene;
 
 	void ShowDebug(bool* p_open, float dt);

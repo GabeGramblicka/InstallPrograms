@@ -128,6 +128,10 @@ void UISystem::Update(float dt)
 			app.SetChecked(false);
 		}
 	}
+	if (_explorer)
+	{
+
+	}
 }
 
 void UISystem::Render() const
@@ -162,6 +166,12 @@ void UISystem::Exit()
 
 void UISystem::ShowDebug(bool* p_open, float dt)
 {
+	ImGui::Begin("Useful Tools", p_open);
+
+	_install = ImGui::Button("Open File Explorer", ImVec2(200, 22));
+
+	ImGui::End();
+
 	ImGui::Begin("Program Installer", p_open);
 	ImGui::SetNextWindowSize(ImVec2(763, 539), ImGuiCond_Always);
 
@@ -190,4 +200,5 @@ void UISystem::ShowDebug(bool* p_open, float dt)
 	App::Display("Utitlites", "utilities");
 
 	ImGui::End();
+
 }
