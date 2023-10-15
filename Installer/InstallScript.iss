@@ -119,8 +119,8 @@ Name: {commondesktop}\{#ApplicationName}; Filename: {app}\{#ApplicationName}.exe
 ; The last item being run is the installer option to automatically launch the game after
 ;   the installer exits as required by the TCRs.
 ; TODO: Update this list with the correct redistributables for your game.
-;[Run]
-;Filename: {tmp}\VC_redist.x64.exe; Parameters: /q /Q /quiet /passive /silent /norestart /NORESTART /noreboot /NOREBOOT; StatusMsg: Installing Visual C++ {#CPlusPlusYearVersion} Redistributable...
+[Run]
+Filename: {tmp}\VC_redist.x64.exe; Parameters: /q /Q /quiet /passive /silent /norestart /NORESTART /noreboot /NOREBOOT; StatusMsg: Installing Visual C++ {#CPlusPlusYearVersion} Redistributable...
 ;Filename: {tmp}\dxsetup.exe; Parameters: /Q; StatusMsg: Installing DirectX...
 ;Filename: {app}\{#ApplicationName}.exe; Description: {cm:LaunchProgram,{#ApplicationName}}; Flags: nowait postinstall skipifsilent
 
