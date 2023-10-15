@@ -107,7 +107,7 @@ void UISystem::Update(float dt)
 		{
 			if (*(app.GetChecked()) == true)
 			{
-				app.Install();
+				app.Find(1);
 			}
 		}
 	}
@@ -117,7 +117,7 @@ void UISystem::Update(float dt)
 		{
 			if (*(app.GetChecked()) == true)
 			{
-				app.Uninstall();
+				app.Find(0);
 			}
 		}
 	}

@@ -2,321 +2,512 @@
 	"7zip": {
 		"type" : "utilities",
 		"winget": "7zip.7zip",
-		"choco": "7zip"
+		"choco": "7zip",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"adobe": {
 		"type" : "media",
 		"winget": "Adobe.Acrobat.Reader.64-bit",
-		"choco": "adobereader"
+		"choco": "adobereader",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"audacity": {
 		"type" : "media",
 		"winget": "Audacity.Audacity",
-		"choco": "audacity"
+		"choco": "audacity",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"bitwarden": {
 		"type" : "utilities",
 		"winget": "Bitwarden.Bitwarden",
-		"choco": "bitwarden"
+		"choco": "bitwarden",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"blender": {
 		"type" : "media",
 		"winget": "BlenderFoundation.Blender",
-		"choco": "blender"
+		"choco": "blender",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"brave": {
 		"type" : "browsers",
 		"winget": "Brave.Brave",
-		"choco": "brave"
+		"choco": "brave",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"bulkcrapuninstaller": {
 		"type" : "utilities",
 		"winget": "Klocman.BulkCrapUninstaller",
-		"choco": "bulk-crap-uninstaller"
+		"choco": "bulk-crap-uninstaller",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"chrome": {
 		"type" : "browsers",
 		"winget": "Google.Chrome",
-		"choco": "googlechrome"
+		"choco": "googlechrome",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"chromium": {
 		"type" : "browsers",
 		"winget": "eloston.ungoogled-chromium",
-		"choco": "chromium"
+		"choco": "chromium",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"cpuz": {
 		"type" : "utilities",
 		"winget": "CPUID.CPU-Z",
-		"choco": "cpu-z"
+		"choco": "cpu-z",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"ddu": {
 		"type" : "utilities",
 		"winget": "ddu",
-		"choco": "ddu"
+		"choco": "ddu",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"discord": {
 		"type" : "communication",
 		"winget": "Discord.Discord",
-		"choco": "discord"
+		"choco": "discord",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"dotnet3": {
 		"type" : "microsoft",
 		"winget": "Microsoft.DotNet.DesktopRuntime.3_1",
-		"choco": "dotnetcore3-desktop-runtime"
+		"choco": "dotnetcore3-desktop-runtime",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"dotnet5": {
 		"type" : "microsoft",
 		"winget": "Microsoft.DotNet.DesktopRuntime.5",
-		"choco": "dotnet-5.0-runtime"
+		"choco": "dotnet-5.0-runtime",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"dotnet6": {
 		"type" : "microsoft",
 		"winget": "Microsoft.DotNet.DesktopRuntime.6",
-		"choco": "dotnet-6.0-runtime"
+		"choco": "dotnet-6.0-runtime",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"eaapp": {
 		"type" : "games",
 		"winget": "ElectronicArts.EADesktop",
-		"choco": "ea-app"
+		"choco": "ea-app",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"eartrumpet": {
 		"type" : "utilities",
 		"winget": "File-New-Project.EarTrumpet",
-		"choco": "eartrumpet"
+		"choco": "eartrumpet",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"edge": {
 		"type" : "browsers",
 		"winget": "Microsoft.Edge",
-		"choco": "microsoft-edge"
+		"choco": "microsoft-edge",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"epicgames": {
 		"type" : "microsoft",
 		"winget": "EpicGames.EpicGamesLauncher",
-		"choco": "epicgameslauncher"
+		"choco": "epicgameslauncher",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"etcher": {
 		"type" : "utilities",
 		"winget": "Balena.Etcher",
-		"choco": "etcher"
+		"choco": "etcher",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"firefox": {
 		"type" : "browsers",
 		"winget": "Mozilla.Firefox",
-		"choco": "firefox"
+		"choco": "firefox",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"foxpdf": {
 		"type" : "utilities",
 		"winget": "Foxit.PhantomPDF",
-		"choco": "na"
+		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"gimp": {
 		"type" : "media",
 		"winget": "GIMP.GIMP",
-		"choco": "gimp"
+		"choco": "gimp",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"git": {
 		"type" : "dev",
 		"winget": "Git.Git",
-		"choco": "git"
+		"choco": "git",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"githubdesktop": {
 		"type" : "dev",
 		"winget": "Git.Git;GitHub.GitHubDesktop",
-		"choco": "git;github-desktop"
+		"choco": "git;github-desktop",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"Google Drive": {
+		"type" : "utilities",
+		"winget": "Google.GoogleDrive",
+		"choco": "googledrive",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"gpuz": {
 		"type" : "utilities",
 		"winget": "TechPowerUp.GPU-Z",
-		"choco": "gpu-z"
+		"choco": "gpu-z",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"handbrake": {
 		"type" : "media",
 		"winget": "HandBrake.HandBrake",
-		"choco": "handbrake"
+		"choco": "handbrake",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"hwinfo": {
 		"type" : "utilities",
 		"winget": "REALiX.HWiNFO",
-		"choco": "hwinfo"
+		"choco": "hwinfo",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"inkscape": {
 		"type" : "media",
 		"winget": "Inkscape.Inkscape",
-		"choco": "inkscape"
+		"choco": "inkscape",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"jetbrains": {
 		"type" : "dev",
 		"winget": "JetBrains.Toolbox",
-		"choco": "jetbrainstoolbox"
+		"choco": "jetbrainstoolbox",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"kdenlive": {
 		"type" : "media",
 		"winget": "KDE.Kdenlive",
-		"choco": "kdenlive"
+		"choco": "kdenlive",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"krita": {
 		"type" : "media",
 		"winget": "KDE.Krita",
-		"choco": "krita"
+		"choco": "krita",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"libreoffice": {
 		"type" : "media",
 		"winget": "TheDocumentFoundation.LibreOffice",
-		"choco": "libreoffice-fresh"
+		"choco": "libreoffice-fresh",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"LiveSplit": {
+		"type" : "media",
+		"winget": "na",
+		"choco": "livesplit",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"Musescore": {
+		"type" : "media",
+		"winget": "Musescore.Musescore",
+		"choco": "musescore",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"msiafterburner": {
 		"type" : "utilities",
 		"winget": "Guru3D.Afterburner",
-		"choco": "msiafterburner"
+		"choco": "msiafterburner",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"notepadplus": {
 		"type" : "dev",
 		"winget": "Notepad++.Notepad++",
-		"choco": "notepadplusplus"
+		"choco": "notepadplusplus",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"nvclean": {
 		"type" : "utilities",
 		"winget": "TechPowerUp.NVCleanstall",
-		"choco": "na"
+		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"Oculus": {
+		"type" : "games",
+		"winget": "na",
+		"choco": "na",
+		"installer" : "OculusSetup.exe",
+		"uninstaller" : "OculusSetup.exe"
 	},
 	"obs": {
 		"type" : "media",
 		"winget": "OBSProject.OBSStudio",
-		"choco": "obs-studio"
+		"choco": "obs-studio",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"obsidian": {
 		"type" : "media",
 		"winget": "Obsidian.Obsidian",
-		"choco": "obsidian"
+		"choco": "obsidian",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"onlyoffice": {
 		"type" : "media",
 		"winget": "ONLYOFFICE.DesktopEditors",
-		"choco": "onlyoffice"
+		"choco": "onlyoffice",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"openoffice": {
 		"type" : "media",
 		"winget": "Apache.OpenOffice",
-		"choco": "openoffice"
+		"choco": "openoffice",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"powershell": {
 		"type" : "microsoft",
 		"winget": "Microsoft.PowerShell",
-		"choco": "powershell-core"
+		"choco": "powershell-core",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"powertoys": {
 		"type" : "microsoft",
 		"winget": "Microsoft.PowerToys",
-		"choco": "powertoys"
+		"choco": "powertoys",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"processmonitor": {
 		"type" : "utilities",
 		"winget": "Microsoft.Sysinternals.ProcessMonitor",
-		"choco": "procexp"
+		"choco": "procexp",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"ProtonVPN": {
+		"type" : "utilities",
+		"winget": "ProtonTechnologies.ProtonVPN",
+		"choco": "protonvpn",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"ProtonDrive": {
+		"type" : "utilities",
+		"winget": "Proton.ProtonDrive",
+		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"putty": {
 		"type" : "utilities",
 		"winget": "PuTTY.PuTTY",
-		"choco": "putty"
+		"choco": "putty",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"rufus": {
 		"type" : "utilities",
 		"winget": "Rufus.Rufus",
-		"choco": "rufus"
+		"choco": "rufus",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"skype": {
 		"type" : "communication",
 		"winget": "Microsoft.Skype",
-		"choco": "skype"
+		"choco": "skype",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"slack": {
 		"type" : "communication",
 		"winget": "SlackTechnologies.Slack",
-		"choco": "slack"
+		"choco": "slack",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"steam": {
 		"type" : "games",
 		"winget": "Valve.Steam",
-		"choco": "steam-client"
+		"choco": "steam-client",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"teams": {
 		"type" : "communication",
 		"winget": "Microsoft.Teams",
-		"choco": "microsoft-teams"
+		"choco": "microsoft-teams",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"terminal": {
 		"type" : "microsoft",
 		"winget": "Microsoft.WindowsTerminal",
-		"choco": "microsoft-windows-terminal"
+		"choco": "microsoft-windows-terminal",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"tor": {
 		"type" : "browsers",
 		"winget": "TorProject.TorBrowser",
-		"choco": "tor-browser"
+		"choco": "tor-browser",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"TortoiseSVN": {
+		"type" : "dev",
+		"winget": "TortoiseSVN.TortoiseSVN",
+		"choco": "tortoisesvn",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"tidal": {
 		"type" : "media",
 		"winget": "9NNCB5BS59PH",
-		"choco": "na"
+		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},	
 	"ubisoft": {
 		"type" : "games",
 		"winget": "Ubisoft.Connect",
-		"choco": "ubisoft-connect"
+		"choco": "ubisoft-connect",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"unity": {
 		"type" : "dev",
 		"winget": "Unity.UnityHub",
-		"choco": "unityhub"
+		"choco": "unityhub",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"vc2015_32": {
 		"type" : "microsoft",
 		"winget": "Microsoft.VCRedist.2015+.x86",
-		"choco": "na"
+		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"vc2015_64": {
 		"type" : "microsoft",
 		"winget": "Microsoft.VCRedist.2015+.x64",
-		"choco": "na"
+		"choco": "na",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"visualstudio": {
 		"type" : "dev",
 		"winget": "Microsoft.VisualStudio.2022.Community",
-		"choco": "visualstudio2022community"
+		"choco": "visualstudio2022community",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"vlc": {
 		"type" : "utilities",
 		"winget": "VideoLAN.VLC",
-		"choco": "vlc"
+		"choco": "vlc",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"vscode": {
 		"type" : "dev",
 		"winget": "Git.Git;Microsoft.VisualStudioCode",
-		"choco": "vscode"
+		"choco": "vscode",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"vscodium": {
 		"type" : "dev",
 		"winget": "Git.Git;VSCodium.VSCodium",
-		"choco": "vscodium"
+		"choco": "vscodium",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"Winaero": {
+		"type" : "utilities",
+		"winget": "na",
+		"choco": "winaero-tweaker",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"windirstat": {
 		"type" : "utilities",
 		"winget": "WinDirStat.WinDirStat",
-		"choco": "windirstat"
+		"choco": "windirstat",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"winmerge": {
 		"type" : "utilities",
 		"winget": "WinMerge.WinMerge",
-		"choco": "winmerge"
+		"choco": "winmerge",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"winrar": {
 		"type" : "utilities",
 		"winget": "RARLab.WinRAR",
-		"choco": "winrar"
+		"choco": "winrar",
+		"installer" : "na",
+		"uninstaller" : "na"
+	},
+	"WSL": {
+		"type" : "dev",
+		"winget": "na",
+		"choco": "wsl",
+		"installer" : "na",
+		"uninstaller" : "na"
 	},
 	"zoom": {
 		"type" : "communication",
 		"winget": "Zoom.Zoom",
-		"choco": "zoom"
+		"choco": "zoom",
+		"installer" : "na",
+		"uninstaller" : "na"
 	}
 }
