@@ -41,7 +41,7 @@ System& UISystem::GetInstance()
 	return instance;
 }
 
-UISystem::UISystem() 
+UISystem::UISystem()
 	: System("UISystem")
 	, _showDemo(0)
 	, _showDebug(true)
@@ -49,6 +49,7 @@ UISystem::UISystem()
 	, _install(0)
 	, _uninstall(0)
 	, _clear(0)
+	, _explorer(0)
 	, _allowHotkeyScene(0)
 {
 }
@@ -130,7 +131,7 @@ void UISystem::Update(float dt)
 	}
 	if (_explorer)
 	{
-
+		ShellExecuteA(NULL, "open", "Data\\Tools", NULL, NULL, SW_SHOWDEFAULT);
 	}
 }
 
@@ -168,7 +169,7 @@ void UISystem::ShowDebug(bool* p_open, float dt)
 {
 	ImGui::Begin("Useful Tools", p_open);
 
-	_install = ImGui::Button("Open File Explorer", ImVec2(200, 22));
+	_explorer = ImGui::Button("Open File Explorer", ImVec2(200, 22));
 
 	ImGui::End();
 
@@ -184,7 +185,7 @@ void UISystem::ShowDebug(bool* p_open, float dt)
 	_install   = ImGui::Button("Install Selected Programs", ImVec2(200, 22));
 	ImGui::SameLine();
 	_uninstall = ImGui::Button("Uninstall Selected Programs", ImVec2(200, 22));
-	ImGui::SameLine();
+
 	_clear = ImGui::Button("Clear Checkboxes", ImVec2(120, 22));
 
 	ImGui::StyleColorsCustom();

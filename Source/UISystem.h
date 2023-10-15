@@ -17,6 +17,7 @@
 #include <imgui.h>
 #include "System.h"
 #include "Stream.h"
+#include <Windows.h>
 
 //------------------------------------------------------------------------------
 // Forward References:
