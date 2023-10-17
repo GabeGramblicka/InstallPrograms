@@ -95,7 +95,7 @@ void App::Find(int _stall)
 		else
 		{
 			// then try choco
-			stall.erase(0, 7);
+			//stall.erase(0, 7);
 			stall.insert(0, "choco ");
 			_choco.insert(0, stall);
 			std::cout << "";
