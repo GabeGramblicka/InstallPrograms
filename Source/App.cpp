@@ -131,7 +131,6 @@ void App::Find(int _stall)
 	}
 }
 
-
 void App::Display(String title, String type)
 {
 	if (ImGui::CollapsingHeader(title.c_str()))
